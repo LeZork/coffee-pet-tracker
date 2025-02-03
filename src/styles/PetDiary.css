@@ -1,0 +1,68 @@
+.hover-effect {
+    transition: transform 0.2s ease-in-out;
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px);
+}
+
+.entry-details {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.entry-notes {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.entry-stats {
+    color: #666;
+}
+
+.health-notes {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.react-calendar {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.diary-entry-dot {
+    background-color: #0d6efd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.img-fluid {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+.entry-card-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.entry-card-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.entry-card-exit {
+    opacity: 1;
+}
+
+.entry-card-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+}
