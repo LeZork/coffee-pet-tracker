@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# 🐾 Coffee Pet Tracker ☕
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Добро пожаловать в **Coffee Pet Tracker** — приложение для трекинга питомцев, которое поможет вам следить за здоровьем и активностью ваших любимцев! 🐶🐱
 
-## Available Scripts
+## 📦 Описание
 
-In the project directory, you can run:
+Это React-приложение позволяет пользователям:
+- Регистрация и авторизация
+- Добавление, редактирование и удаление питомцев
+- Просмотр статистики питомцев
+- Ведение дневника питомца
+- Фильтрация и сортировка питомцев по различным критериям
 
-### `npm start`
+## 🚀 Установка
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Чтобы запустить проект на своем локальном компьютере, выполните следующие шаги:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/LeZork/coffee-pet-tracker
+Перейдите в папку проекта:
 
-### `npm test`
+cd coffee-pet-tracker
+Установите зависимости:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+Запустите приложение:
 
-### `npm run build`
+npm start
+📱 Функциональность
+🔒 Авторизация
+Пользователи могут зарегистрироваться и войти в систему.
+🐕 Питомцы
+Добавление новых питомцев с информацией о них.
+Просмотр списка всех питомцев.
+Редактирование и удаление питомцев.
+📊 Статистика
+Отображение статистики питомцев, включая вес и активность.
+📖 Дневник
+Ведение дневника питомца с возможностью добавления записей о состоянии, настроении и активности.
+🛠️ Используемые технологии
+React для построения пользовательского интерфейса
+React Router для маршрутизации
+Axios для работы с API
+Bootstrap для стилизации компонентов
+React Toastify для уведомлений
+📄 Лицензия
+Этот проект лицензирован под MIT License - подробности смотрите в файле LICENSE.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📧 Контакты
+Если у вас есть вопросы или предложения, не стесняйтесь обращаться ко мне:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: lexus9209@gmail.com
+GitHub: LeZork
