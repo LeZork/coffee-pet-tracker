@@ -563,6 +563,7 @@ const PetDiary = () => {
                             placeholder="Опишите день питомца"
                             className="shadow-sm"
                             rows={4}
+                            required
                         />
                     </Form.Group>
                 </Col>
@@ -574,6 +575,7 @@ const PetDiary = () => {
                             value={newEntry.mood}
                             onChange={handleChange}
                             className="shadow-sm"
+                            required
                         >
                             <option value="">Выберите настроение</option>
                             <option value="happy">😊 Радостное</option>
@@ -591,6 +593,7 @@ const PetDiary = () => {
                             value={newEntry.weight}
                             onChange={handleChange}
                             className="shadow-sm"
+                            required
                         />
                     </Form.Group>
                 </Col>
